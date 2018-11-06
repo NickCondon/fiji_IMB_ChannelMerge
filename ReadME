@@ -1,0 +1,16 @@
+Developed by Dr Nicholas Condon 
+ACRF:Cancer Biology Imaging Facility, 
+Institute for Molecular Biosciences, The University of Queensland
+Brisbane, Australia 2018
+
+This script is written in the ImageJ1 Macro Language.
+
+This script can be used to merge single channel images into multi-channel images. (2- or 3- channels).
+
+Channel order can also be selected (Red/Green/Blue/Gray/Cyan/Magenta/Yellow). Do not duplicate channel LUTs in the same image sets (i.e. don’t select green twice)
+
+Input image files should be single channel tif images. Output files are multi-channel tif images and will be stored in the seperate directory (prompted by the code).
+
+***Note the script isn’t smart enough to know if you have duplicate files, it works by opening images in multiples of the number of channels you have selected, and merges them.
+
+A log file is also saved into your output folder for record keeping.
